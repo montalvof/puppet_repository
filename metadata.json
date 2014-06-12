@@ -1,0 +1,23 @@
+{
+  "author": "",
+  "checksums": {
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/init.pp": "fb2d7a5f306ef9d2b90148763ff9ef6a",
+    "Puppetfile": "83ebb8a248327dda9d65b9bbfc119c98",
+    "Modulefile": "0d43f3d34462f47f38945767e765b007",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "tests/init.pp": "0b1de95afbd7372bd3102006101d4741",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "README.md": "59f08e82c30f205d42775b1a0d5e260d",
+    "README.markdown": "2604a6131115ae4a26e9c92d2769a1f9"
+  },
+  "dependencies": [],
+  "description": "",
+  "license": "",
+  "name": "cvquesty-puppet_repository",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "types": [],
+  "version": "0.1.0"
+}
