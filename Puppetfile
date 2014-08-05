@@ -10,4 +10,4 @@ mod "gentoo/portage"
 
 mod "samplerepo",
   :git => "git://github.com/cvquesty/samplerepo.git",
-  :ref => 'testing'
+  :ref => 'production'
