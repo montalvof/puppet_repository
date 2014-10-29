@@ -17,6 +17,10 @@ mod "cups",
 	:git => "git://github.com/cvquesty/cups.git",
 	:ref => 'master'
 
+mod "demo",
+	:git => "git://github.com/cvquesty/demo.git",
+	:ref => 'master'
+
 mod "dns",
 	:git => "git://github.com/cvquesty/dns.git",
 	:ref => 'master'
