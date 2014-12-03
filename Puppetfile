@@ -45,6 +45,14 @@ mod "pam",
 	:git => "git://github.com/cvquesty/pam.git",
 	:ref => 'production'
 
+mod "profiles",
+  :git => "git://github.com/cvquesty/profiles.git",
+  :ref => 'production'
+
+mod "roles",
+  :git => "git://github.com/cvquesty/roles.git",
+  :ref => 'production'
+
 mod "ssh",
 	:git => "git://github.com/cvquesty/ssh.git",
 	:ref => 'production'
