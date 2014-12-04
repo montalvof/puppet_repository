@@ -9,17 +9,21 @@ mod "puppetlabs/git"
 mod "zack/r10k"
 mod "gentoo/portage"
 
+mod "audit",
+  :git => "git://github.com/cvquesty/audit.git",
+  :ref => 'production'
+
 mod "cron",
 	:git => "git://github.com/cvquesty/cron.git",
-	:ref => 'master'
+	:ref => 'production'
 
 mod "cups",
 	:git => "git://github.com/cvquesty/cups.git",
-	:ref => 'master'
+	:ref => 'production'
 
 mod "demo",
 	:git => "git://github.com/cvquesty/demo.git",
-	:ref => 'master'
+	:ref => 'production'
 
 mod "demo",
   :git => "git://github.com/cvquesty/demo.git",
@@ -35,35 +39,35 @@ mod "demo",
 
 mod "dns",
 	:git => "git://github.com/cvquesty/dns.git",
-	:ref => 'master'
+	:ref => 'production'
 
 mod "iptables",
 	:git => "git://github.com/cvquesty/iptables.git",
-	:ref => 'master'
+	:ref => 'production'
 
 mod "logrotate",
 	:git => "git://github.com/cvquesty/logrotate.git",
-	:ref => 'master'
+	:ref => 'production'
 
 mod "mounts",
 	:git => "git://github.com/cvquesty/mounts.git",
-	:ref => 'master'
+	:ref => 'production'
 
 mod "ntp",
 	:git => "git://github.com/cvquesty/ntp.git",
-	:ref => 'master'
+	:ref => 'production'
 
 mod "pam",
 	:git => "git://github.com/cvquesty/pam.git",
-	:ref => 'master'
+	:ref => 'production'
 
 mod "profiles",
 	:git => "git://github.com/cvquesty/profiles.git",
-	:ref => 'master'
+	:ref => 'production'
 
 mod "roles",
 	:git => "git://github.com/cvquesty/roles.git",
-	:ref => 'master'
+	:ref => 'production'
 
 mod "profiles",
   :git => "git://github.com/cvquesty/profiles.git",
@@ -91,16 +95,16 @@ mod "roles",
 
 mod "ssh",
 	:git => "git://github.com/cvquesty/ssh.git",
-	:ref => 'master'
+	:ref => 'production'
 
 mod "sudo",
 	:git => "git://github.com/cvquesty/sudo.git",
-	:ref => 'master'
+	:ref => 'production'
 
 mod "syslog",
 	:git => "git://github.com/cvquesty/syslog.git",
-	:ref => 'master'
+	:ref => 'production'
 
 mod "users",
 	:git => "git://github.com/cvquesty/users.git",
-	:ref => 'master'
+	:ref => 'production'
