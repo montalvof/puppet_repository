@@ -1,2 +1,4 @@
 ---
 message: "This node is using production data."
+
+audit_installed: 'installed'
