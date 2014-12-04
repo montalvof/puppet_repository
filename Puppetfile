@@ -10,7 +10,7 @@ mod "zack/r10k"
 mod "gentoo/portage"
 
 mod "audit",
-  :git => "git://github.com/cvquesty/cron.git",
+  :git => "git://github.com/cvquesty/audit.git",
   :ref => 'testing'
 
 mod "cron",
