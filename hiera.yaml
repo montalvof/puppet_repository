@@ -3,6 +3,7 @@
   - yaml
 :hierarchy:
   - "%{clientcert}"
+  - "%{environment}"
   - "%{application_tier}"
   - common
 :yaml:

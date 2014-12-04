@@ -1,4 +1,3 @@
 ---
 message: "This node is using development data."
-
-audit_installed: 'absent'
+audit_installed : "absent"
