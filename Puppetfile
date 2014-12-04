@@ -9,6 +9,10 @@ mod "puppetlabs/git"
 mod "zack/r10k"
 mod "gentoo/portage"
 
+mod "audit",
+  :git => "git://github.com/cvquesty/cron.git",
+  :ref => 'development'
+
 mod "cron",
 	:git => "git://github.com/cvquesty/cron.git",
 	:ref => 'development'
