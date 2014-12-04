@@ -11,11 +11,23 @@ mod "gentoo/portage"
 
 mod "cron",
 	:git => "git://github.com/cvquesty/cron.git",
-	:ref => 'production'
+	:ref => 'master'
 
 mod "cups",
 	:git => "git://github.com/cvquesty/cups.git",
-	:ref => 'production'
+	:ref => 'master'
+
+mod "demo",
+	:git => "git://github.com/cvquesty/demo.git",
+	:ref => 'master'
+
+mod "demo",
+  :git => "git://github.com/cvquesty/demo.git",
+  :ref => 'development'
+
+mod "demo",
+  :git => "git://github.com/cvquesty/demo.git",
+  :ref => 'testing'
 
 mod "demo",
   :git => "git://github.com/cvquesty/demo.git",
@@ -23,27 +35,51 @@ mod "demo",
 
 mod "dns",
 	:git => "git://github.com/cvquesty/dns.git",
-	:ref => 'production'
+	:ref => 'master'
 
 mod "iptables",
 	:git => "git://github.com/cvquesty/iptables.git",
-	:ref => 'production'
+	:ref => 'master'
 
 mod "logrotate",
 	:git => "git://github.com/cvquesty/logrotate.git",
-	:ref => 'production'
+	:ref => 'master'
 
 mod "mounts",
 	:git => "git://github.com/cvquesty/mounts.git",
-	:ref => 'production'
+	:ref => 'master'
 
 mod "ntp",
 	:git => "git://github.com/cvquesty/ntp.git",
-	:ref => 'production'
+	:ref => 'master'
 
 mod "pam",
 	:git => "git://github.com/cvquesty/pam.git",
-	:ref => 'production'
+	:ref => 'master'
+
+mod "profiles",
+	:git => "git://github.com/cvquesty/profiles.git",
+	:ref => 'master'
+
+mod "roles",
+	:git => "git://github.com/cvquesty/roles.git",
+	:ref => 'master'
+
+mod "profiles",
+  :git => "git://github.com/cvquesty/profiles.git",
+  :ref => 'development'
+
+mod "roles",
+  :git => "git://github.com/cvquesty/roles.git",
+  :ref => 'development'
+
+mod "profiles",
+  :git => "git://github.com/cvquesty/profiles.git",
+  :ref => 'testing'
+
+mod "roles",
+  :git => "git://github.com/cvquesty/roles.git",
+  :ref => 'testing'
 
 mod "profiles",
   :git => "git://github.com/cvquesty/profiles.git",
@@ -55,16 +91,16 @@ mod "roles",
 
 mod "ssh",
 	:git => "git://github.com/cvquesty/ssh.git",
-	:ref => 'production'
+	:ref => 'master'
 
 mod "sudo",
 	:git => "git://github.com/cvquesty/sudo.git",
-	:ref => 'production'
+	:ref => 'master'
 
 mod "syslog",
 	:git => "git://github.com/cvquesty/syslog.git",
-	:ref => 'production'
+	:ref => 'master'
 
 mod "users",
 	:git => "git://github.com/cvquesty/users.git",
-	:ref => 'production'
+	:ref => 'master'
