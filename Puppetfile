@@ -11,15 +11,15 @@ mod "gentoo/portage"
 
 mod "cron",
 	:git => "git://github.com/cvquesty/cron.git",
-	:ref => 'master'
+	:ref => 'development'
 
 mod "cups",
 	:git => "git://github.com/cvquesty/cups.git",
-	:ref => 'master'
+	:ref => 'development'
 
 mod "demo",
 	:git => "git://github.com/cvquesty/demo.git",
-	:ref => 'master'
+	:ref => 'development'
 
 mod "demo",
   :git => "git://github.com/cvquesty/demo.git",
@@ -27,35 +27,35 @@ mod "demo",
 
 mod "dns",
 	:git => "git://github.com/cvquesty/dns.git",
-	:ref => 'master'
+	:ref => 'development'
 
 mod "iptables",
 	:git => "git://github.com/cvquesty/iptables.git",
-	:ref => 'master'
+	:ref => 'development'
 
 mod "logrotate",
 	:git => "git://github.com/cvquesty/logrotate.git",
-	:ref => 'master'
+	:ref => 'development'
 
 mod "mounts",
 	:git => "git://github.com/cvquesty/mounts.git",
-	:ref => 'master'
+	:ref => 'development'
 
 mod "ntp",
 	:git => "git://github.com/cvquesty/ntp.git",
-	:ref => 'master'
+	:ref => 'development'
 
 mod "pam",
 	:git => "git://github.com/cvquesty/pam.git",
-	:ref => 'master'
+	:ref => 'development'
 
 mod "profiles",
 	:git => "git://github.com/cvquesty/profiles.git",
-	:ref => 'master'
+	:ref => 'development'
 
 mod "roles",
 	:git => "git://github.com/cvquesty/roles.git",
-	:ref => 'master'
+	:ref => 'development'
 
 mod "profiles",
   :git => "git://github.com/cvquesty/profiles.git",
@@ -67,16 +67,16 @@ mod "roles",
 
 mod "ssh",
 	:git => "git://github.com/cvquesty/ssh.git",
-	:ref => 'master'
+	:ref => 'development'
 
 mod "sudo",
 	:git => "git://github.com/cvquesty/sudo.git",
-	:ref => 'master'
+	:ref => 'development'
 
 mod "syslog",
 	:git => "git://github.com/cvquesty/syslog.git",
-	:ref => 'master'
+	:ref => 'development'
 
 mod "users",
 	:git => "git://github.com/cvquesty/users.git",
-	:ref => 'master'
+	:ref => 'development'
