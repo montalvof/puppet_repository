@@ -4,9 +4,12 @@ forge "http://forge.puppetlabs.com"
 # Modules from the Puppet Forge
 mod "puppetlabs/pe_gem"
 mod "puppetlabs/firewall"
-mod "puppetlabs/vcsrepo"
 mod "puppetlabs/git"
+mod "trlinkin/nsswitch"
+mod "puppetlabs/ntp"
 mod "zack/r10k"
+mod "saz/resolv_conf"
+mod "puppetlabs/vcsrepo"
 mod "gentoo/portage"
 
 mod "audit",
