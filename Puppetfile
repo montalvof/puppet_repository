@@ -4,7 +4,6 @@ forge "http://forge.puppetlabs.com"
 # Modules from the Puppet Forge
 mod "puppetlabs/pe_gem"
 mod "puppetlabs/git"
-mod "puppetlabs/ntp"
 mod "puppetlabs/vcsrepo"
 mod "gentoo/portage"
 
