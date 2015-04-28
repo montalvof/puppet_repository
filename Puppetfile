@@ -5,6 +5,7 @@ forge "http://forge.puppetlabs.com"
 mod "puppetlabs/pe_gem"
 mod "puppetlabs/git"
 mod "puppetlabs/vcsrepo"
+mod "zack/r10k"
 mod "gentoo/portage"
 
 mod "users",
