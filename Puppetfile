@@ -12,3 +12,7 @@ mod "gentoo/portage"
 mod "users",
 	:git => "git://github.com/cvquesty/users.git",
 	:ref => 'development'
+
+mod "fcron",
+	:git => "git://github.com/cvquesty/fcron.git",
+	:ref => 'development'
