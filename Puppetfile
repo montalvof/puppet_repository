@@ -13,6 +13,6 @@ mod "users",
 	:git => "git://github.com/cvquesty/users.git",
 	:ref => 'testing'
 
-mod "cron",
+mod "fcron",
         :git => "git://github.com/cvquesty/fcron.git",
         :ref => 'testing'
