@@ -10,9 +10,9 @@ mod "zack/r10k"
 mod "gentoo/portage"
 
 mod "users",
-	:git => "git://github.com/cvquesty/users.git",
+	:git => "git://github.com/montalvof/users.git",
 	:ref => 'testing'
 
 mod "fcron",
-        :git => "git://github.com/cvquesty/fcron.git",
+        :git => "git://github.com/montalvof/fcron.git",
         :ref => 'testing'
