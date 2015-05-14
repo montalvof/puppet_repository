@@ -14,5 +14,5 @@ mod "users",
 	:ref => 'testing'
 
 mod "cron",
-        :git => "git://github.com/cvquesty/cron.git",
+        :git => "git://github.com/cvquesty/fcron.git",
         :ref => 'testing'
